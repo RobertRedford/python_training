@@ -12,6 +12,7 @@ class ContactHelper:
     def fill_the_field_of_credentials(self, contact):
         wd = self.app.wd
         self.add_new_contact()
+        self.fill_contact_form(contact)
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys(contact.firstname)
@@ -23,6 +24,19 @@ class ContactHelper:
         wd.find_element_by_name("address").send_keys(contact.address)
         wd.find_element_by_name("submit").click()
         self.return_to_homepage()
+
+    def fill_contact_form(self, contact):
+        wd = self.app.wd
+        self.change_contact_value("contact firstname", contact.firstname)
+        self.change_contact_value("contact lastname", contact.lastname)
+        self.change_contact_value("contact address", contact.address)
+
+    def change_contact_field_value(self, contact_field_name, text):
+        wd = self.app.wd
+        if text is not None:
+            wd.find_element_by_name(contact_field_name).click()
+            wd.find_element_by_name(contact_field_name).clear()
+            wd.find_element_by_name(contact_field_name).send_keys(text)
 
     def submit_the_information(self):
         wd = self.app.wd
