@@ -25,7 +25,6 @@ class GroupHelper:
         self.change_field_value("group_header", group.header)
         self.change_field_value("group_footer", group.footer)
 
-
     def change_field_value(self, field_name, text):
         wd = self.app.wd
         if text is not None:
@@ -59,3 +58,8 @@ class GroupHelper:
         wd = self.app.wd
         # return to groups page
         wd.find_element_by_link_text("group page").click()
+
+    def count(self):
+        wd = self.app.wd
+        self.open_groups_page()
+        return len(wd.find_elements_by_name("selected[]"))
