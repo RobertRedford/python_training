@@ -72,7 +72,7 @@ class ContactHelper:
         for element in wd.find_elements_by_name("entry"):
             cells = element.find_elements_by_tag_name("td")
             id = cells[0].find_element_by_tag_name("input").get_attribute("value")
-            contacts.append(Contact(firstname=cells[2].text, lastname=cells[1].text, id=id))
+            contacts.append(Contact(lastname=cells[1].text, firstname=cells[2].text, id=id))
         return contacts
 
         # wd = self.app.wd
