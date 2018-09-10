@@ -15,8 +15,8 @@ class Contact:
         self.id = id
         self.address = address
         self.email = email
-        self.email = email2
-        self.email = email3
+        self.email2 = email2
+        self.email3 = email3
         self.all_phones_from_home_page = all_phones_from_home_page
         self.all_emails_from_home_page = all_emails_from_home_page
 
