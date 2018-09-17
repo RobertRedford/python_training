@@ -30,7 +30,6 @@ testdata = [Group(name="", header="", footer="")] + [
 @pytest.mark.parametrize("group", testdata, ids=[repr(x) for x in testdata])
 def test_add_group(app, group):
     old_groups = app.group.get_group_list()
-    group = Group(name="1234", header="5678", footer="90")
     app.group.create(group)
     new_groups = app.group.get_group_list()
     assert len(old_groups) + 1 == len(new_groups)
