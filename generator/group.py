@@ -1,3 +1,5 @@
+# script for generate json for making groups
+
 from model.group import Group
 import random
 import string

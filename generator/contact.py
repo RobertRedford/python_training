@@ -1,3 +1,5 @@
+# script for generate json for making contacts
+
 from model.contact import Contact
 import random
 import string
@@ -7,7 +9,7 @@ import getopt
 import sys
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], "n:f:", ["number of groups", "file"])
+    opts, args = getopt.getopt(sys.argv[1:], "n:f:", ["number of contacts", "file"])
 except getopt.GetoptError as err:
     # print help information and exit:
     print(err)  # will print something like "option -a not recognized"
@@ -28,8 +30,9 @@ def random_string(prefix, maxlen):
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
 
 
-testdata = [Contact(lastname="", firstname=""] + [
-    Contact(firstname=random_string("firstname", 20), lastname=random_string("lastname", 15))
+testdata = [Contact(lastname="", firstname="")] + [
+    Contact(firstname=random_string("firstname", 20), lastname=random_string("lastname", 15),
+            address=random_string("address", 20), email=random_string("email", 20))
     for i in range(n)
 
 ]
