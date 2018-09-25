@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65170ab-8849-4227-aac6-33950444f240" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/git_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxml-4.2.5-cp36-cp36m-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/groups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contacts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/groups.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/groups.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +71,8 @@
       <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="629">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#46#75#0" expanded="true" />
               </folding>
@@ -90,7 +83,7 @@
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="442">
               <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="e#48#81#0" expanded="true" />
@@ -99,10 +92,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/contacts.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -110,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/data/groups.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -133,11 +133,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="289">
               <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#25#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,8 +148,8 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="544">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -220,9 +223,10 @@
         <option value="$PROJECT_DIR$/generator/group.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/data/contacts.py" />
-        <option value="$PROJECT_DIR$/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/test/test_add_contact.py" />
         <option value="$PROJECT_DIR$/generator/contact.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/test/test_add_group.py" />
       </list>
     </option>
   </component>
@@ -250,16 +254,6 @@
             <path>
               <item name="python_training_24_Sep" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_training_24_Sep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_training_24_Sep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_training_24_Sep" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_training_24_Sep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_training_24_Sep" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_training_24_Sep" type="b2602c69:ProjectViewProjectNode" />
@@ -696,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537482830184</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Ответ к 19 заданию - Реализовать загрузку тестовых данных из файлов">
+      <created>1537826076429</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1537826076429</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -747,13 +748,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2300066" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.18814056" side_tool="true" weight="0.5023847" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8118594" visible="true" weight="0.31392047" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49834764" weight="0.19744319" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.26136363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8118594" weight="0.31392047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976867" weight="0.33664772" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86186385" weight="0.35085228" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86186385" weight="0.35085228" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -770,7 +771,7 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8118594" visible="true" weight="0.5023847" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2306003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -778,8 +779,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49834764" weight="0.19744319" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8118594" visible="true" weight="0.5023847" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49633968" weight="0.39586645" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86186385" weight="0.35085228" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976867" weight="0.33664772" />
@@ -825,7 +826,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Выделены вспомогательные классы" />
     <MESSAGE value="Доделать с контактами" />
     <MESSAGE value="Ответ к задаче номер 5 (Реализовать двухуровневую архитектуру тестов)" />
     <MESSAGE value="Ответ к задаче номер 6 (общая фикстура для всех тестов), и еще тест на удаление групп" />
@@ -850,7 +850,8 @@
     <MESSAGE value="Ответ к 16 заданию (Реализовать опции командной строки)" />
     <MESSAGE value="Ответ к 17 заданию (Реализовать загрузку информации о тестируемом приложении из конфигурационного файла)" />
     <MESSAGE value="Ответ к 17 заданию (Реализовать загрузку информации о тестируемом приложении из конфигурационного файла), добавлен абс. путь" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ответ к 17 заданию (Реализовать загрузку информации о тестируемом приложении из конфигурационного файла), добавлен абс. путь" />
+    <MESSAGE value="Ответ к 19 заданию - Реализовать загрузку тестовых данных из файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ответ к 19 заданию - Реализовать загрузку тестовых данных из файлов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -858,13 +859,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
@@ -1056,13 +1050,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/groups.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/groups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,33 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#46#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1107,9 +1081,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generator/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#46#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="442">
           <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="e#48#81#0" expanded="true" />
@@ -1117,9 +1101,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/groups.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/contacts.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
